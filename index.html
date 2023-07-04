@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
+
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+    <div class="main">
+      <nav>
+        <img src="logo.png" alt="" srcset="" class="logo" />
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Projects</a></li>
+
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Affordable</a></li>
+        </ul>
+        <button type="button" class="btn" onclick="toggle()" id="btn">
+          <span></span>
+        </button>
+      </nav>
+      <div class="container">
+        <img src="lamp.jpg" alt="" srcset="" class="lamp" id="lamp" />
+        <img src="li.png" alt="" class="light" id="light" />
+      </div>
+
+      <div class="head">
+        <h3>Hi I'm Antima</h3>
+        <h1>
+          A <l style="color: rgba(27, 181, 58, 0.588)">FRONTEND </l
+          ><br />DEVELOPER
+        </h1>
+        <p>
+          Truning ideas into real life
+          <b style="color: rgb(47, 237, 100)">product</b>
+          is my calling.
+        </p>
+      </div>
+    </div>
+    <div class="section1">
+       <div class="gfg">
+        <img src="glass.gif" alt="" class="glass">
+       </div>
+      <div class="body">
+        <h1>About Me</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vero
+          incidunt iusto sint sapiente sed repudiandae error inventore, earum
+          odio facilis commodi sit quae possimus dicta at provident maxime eos.
+          Provident, cum corporis et unde non impedit iure odio, vero possimus
+          repellat pariatur minima adipisci! Excepturi reiciendis quam veniam
+          neque nisi modi nemo voluptates
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, quas!
+          Sed necessitatibus esse assumenda? A, nulla? Debitis, veniam itaque.
+          Odit unde omnis perferendis ad reiciendis?
+        </p>
+      </div>
+    </div>
+    <div class="section2">
+       <div class="gif">
+        <img src="giphy.gif" alt="" class="giphy">
+       </div>
+      <div class="box">
+     
+        <h1>Skill'S</h1>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Python</li>
+          <li>Figma</li>
+          <li>Excel use in Data Analysis</li>
+        </ul>
+       
+    </div>
+    </div>
+    <div class="section3">
+
+    </div>
+    <div class="section4">
+      <div class="contact-box">
+        <h1>Contact</h1>
+          <p>
+            <ul>
+              <li> <i class="bi bi-telephone"></i><a href="">8104945707</a></li>
+              <li><i class="bi bi-instagram"></i><a href="">antima</a> </li>
+              <li><i class="bi bi-envelope-at"></i><a href="">antimaay20itstudent.mes.ac.in</a></li>
+              <li><i class="bi bi-linkedin"></i><a href="">www.linkedin.com/in/
+                antima-yadav-311067234
+                
+                </a></li>
+              
+            </ul>
+          </p>
+      </div>
+    </div>
+    <script>
+      var btn = document.getElementById("btn");
+      var light = document.getElementById("light");
+
+      function toggle() {
+        btn.classList.toggle("active");
+        light.classList.toggle("on");
+      }
+    </script>
+  </body>
+</html>
